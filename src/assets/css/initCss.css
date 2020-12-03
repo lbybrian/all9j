@@ -1,0 +1,28 @@
+页面大布局背景{
+  border: 1px solid #244a81;
+  background: linear-gradient(#082031, rgba(8,58,74,0.7));
+  box-shadow: 0 0 20px rgba(9,169,191,0.5);
+}
+分页组件{
+  color: #84E0ED;
+  background: #032c4c;
+  border: 1px solid #30668A;
+  box-shadow: 0 0 5px #30668A inset;
+}
+分页组件当前页数.active{
+  color: #cccccc;
+}
+button{
+  color: #47AFAE;
+  border: 1px solid #47AFAE;
+}
+button.active{
+  color: #02feff;
+  border: 1px solid #02feff;
+}
+/*文字规范 title 16px content 14px 小字 12px*/
+/*圆角4px 间距10px 或 20px*/
+系统echart图背景色{
+  background: rgba(14,238,252,0.1);
+}
+

@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td ,textarea,input { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 16px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';  color: #333;}
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a,
+img {
+  -webkit-touch-callout: none
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {text-decoration: none}
+input[type=password],
+input[type=text],
+textarea {
+  resize: none;
+  outline: 0;
+  -webkit-appearance: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #fff
+}
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+h1{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/*可点击*/
+.pointer{
+  cursor: pointer;
+}
+/*灰色文本*/
+.grey-text{
+  color: #858585;
+  font-size: 14px;
+}
+/*灰色图标*/
+.grey-icon{
+  color: #858585;
+  font-size: 16px;
+}
+/*蓝色图标*/
+.blue-icon{
+  color: #66B1FF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ /*.has-gutter .el-table_1_column_3{
+  	
+  	width: 400px;
+  }*/
+/*全局修改el-ui样式*/
+.el-tabs__item.is-active{
+	/*color: white;*/
+}
+.el-tabs__item:hover {
+    /*color: #409EFF;
+    cursor: pointer;*/
+}
+.el-tabs__item{
+    /*font-size: 12px;
+  	padding-right:11px!important;
+  	padding-left: 10px!important;
+    margin: 4px;
+    border-radius:6px;
+     cursor: pointer; 
+    background-color: #66B1FF;*/
+}
+.el-tabs__active-bar{
+	/*background-color: transparent!important;去掉下划线*/
+}
+.el-tabs__item.is-active {
+    /*color: white;
+    font-size: 14px;
+    background-color: #66B1FF;*/
+}
+.el-tabs__nav-wrap {
+	padding-left: 20px;
+}
+.v-modal{
+	z-index: 2000!important;
+}
+.el-table{
+	color: #47AFAE;
+  /*border: 1px solid #CCCCCC;*/
+  /*border: 1px solid #244a81;*/
+  /*background: linear-gradient(#082031, rgba(8,58,74,0.7));
+  box-shadow: 0 0 20px rgba(9,169,191,0.5);*/
+}
+.el-table td, .el-table th,.el-table tr{
+    /*border: 1px solid #CCCCCC;*/
+    /*background: linear-gradient(rgba(8,58,74,0));*/
+    /*box-shadow: 0 0 20px rgba(9,169,191,0);*/
+    /*overflow: hidden;*/
+		/*color: white;*/
+  }
+  .el-table th{
+  	/*color: #47AFAE;*/
+	color: #000000;
+  	width: 490px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    /*border: 1px solid skyblue;*/
+    border-radius: 4px;
+    /*background: linear-gradient(#082031, rgba(8,58,74,0.7));
+    box-shadow: 0 0 20px rgba(9,169,191,0.5);*/
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .el-table th el-table_1_column_3.is-leaf{
+  	
+  	width: 400px;
+  }
+  .el-table th:hover{
+  	/*color: #02feff;*/
+  }
+  .el-table td{
+  	/*font-size: 14px;*/
+  }
+  .el-pagination{
+  color: #84E0ED;
+  /*background: #032c4c;
+  border: 1px solid #30668A;
+  box-shadow: 0 0 5px #30668A inset;*/
+  margin-bottom: 20px;
+}
+.el-pagination.active{
+  color: #cccccc;
+}
+.el-button{
+	/*color: #47AFAE;*/
+  /*border: 1px solid #47AFAE;*/
+  
+  /*background-color: greenyellow;*/
+  /*border-radius: 4px;*/
+  /*border: 1px solid #00ffff;
+  color: darkslateblue;*/
+}
+.el-button.active{
+  /*color: #02feff;*/
+  /*border: 1px solid #02feff;*/
+}
+/*.el-row{
+  background: linear-gradient(#082031, rgba(8,58,74,0));
+  box-shadow: 0 0 20px rgba(9,169,191,0);
+}*/
+.el-tabs__content .el-tab-pane .el-row .el-col4{
+ 	/*background-color: blue!important;
+ 	color: #02feff*/
+ }
+	.el-col-4{
+ 	/*background-color: blue;*/
+ 	/*color: #02feff;*/
+ 	/*overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	white-space: nowrap;*/
+ 	/*-webkit-line-clamp: 2;*/
+ 	/*display: -webkit-box;
+ 	-webkit-box-orient: vertical;*/
+ }
+  .el-col-4:hover{
+  	/*color: #02feff;*/
+}
+  .el-col-4:active{
+  	
+  	color: #02feff!important;
+}
+.el-tabs__content .el-tab-pane .el-row .el-col-4 div:active{
+  	/*color: #02feff!important;*/
+}
+/*.el-tabs__content .el-tab-pane .el-row .el-col-4:active{
+  	color: #02feff!important;
+}*/
+/*.el-col,.el-col-6,.el-card,.el-card__body{
+  	color: #47AFAE;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background: linear-gradient(rgba(8,58,74,0));
+    overflow: hidden;
+    cursor: pointer;
+  }*/
+ /*.el-col>>>td{
+ 	
+ }*/
+.el-dialog{
+	/*透明*/
+  	/*background: rgba(14,238,252,0.7);*/
+}
+.el-dialog__body{
+	/*background: rgba(14,238,252,0.7);*/
+  /*background: linear-gradient(#082031, rgba(8,58,74,1));*/
+	
+}
+/*.el-col:hover{
+  	color: #02feff;
+}
+.el-col.active{
+  	color: #02feff;
+}*/
+/*
+.el-button--primary {
+  background: -webkit-linear-gradient(left, #31aaff, #156cfb);
+}
+.el-button--danger {
+  background: -webkit-linear-gradient(left, #ff8e78, #fc4545);
+}
+*/
+.el-col{
+	/*color: #000000;*/
+	
+  /*background-color:orange;*/
+}
+.el-row{
+	/*color: #000000;*/
+  /*background-color: #008000;*/
+}
+
+/*.el-table{
+  background-color: yellow;
+  border: 1px solid black;
+  color: darkblue;
+  
+}
+.el-table-column{
+  background-color: yellow;
+  border: 1px solid green;
+  color: red;
+}*/
+.el-form{
+	padding: 20px;
+	color: #47AFAE;
+  background:(rgba(8,58,74,0.7));
+  box-shadow: 0 0 20px rgba(9,169,191,0.5);
+}
+/*.label{
+	color: #47AFAE;
+}*/
+.el-form-item{
+	/*color: #47AFAE;*/
+  /*background: linear-gradient(#082031, rgba(8,58,74,1));*/
+}
+.el-form-item__label{
+	color: #000000;
+  /*background-color: #082031;*/
+  /*background: linear-gradient(#082031, rgba(8,58,74,0.01));*/
+}
+.el-card{
+	color: #47AFAE;
+  /*background: linear-gradient(#082031, rgba(8,58,74,0.7));*/
+  /*box-shadow: 0 0 20px rgba(9,169,191,0.5);*/
+}
+/*.el-card__header{
+	color: #000000;
+}*/
+/*
+.export {
+  background: -webkit-linear-gradient(left, #00ffff, #00c6ff);
+  border: 1px solid #00ffff;
+  color: white;
+}*/
+
+
